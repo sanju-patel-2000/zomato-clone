@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-shadow {
+  box-shadow: 0 1px 2px 0 #ded9d996;
+}
+.my-shadow {
+  box-shadow:rgba(28, 28, 28, 0.15) 0px 2px 8px;
+}
+.max-width {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+i {
+  cursor: pointer;
+}
+.header-shadow {
+  box-shadow: 0px 2px 8px rgba(28, 28, 28, 0.081);
+}
+.collection-item-heading,
+.top-brands-heading,
+.explore-section-heading {
+  font-size: 30px;
+  color: #252525;
+  font-weight: 500;
+  margin: 25px 0px;
+}
+.slick-next {
+  position: "absolute";
+  top: 50%;
+}
+.slick-prev {
+  position: "absolute";
+  top: 50%;
+}
+.slick-next:before {
+  color: #000;
+}
+.slick-prev:before {
+  color: #000;
+}
+.linear-gradiant {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.05) 85%
+  );
+}
